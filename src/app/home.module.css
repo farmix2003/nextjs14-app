@@ -35,11 +35,8 @@
   position: relative;
   filter: grayscale(1);
 }
-.brandImg {
-}
+
 .imgContainer {
   flex: 1;
   position: relative;
-}
-.heroImg {
 }

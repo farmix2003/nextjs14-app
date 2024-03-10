@@ -1,5 +1,37 @@
+.container {
+  display: flex;
+  gap: 5.6rem;
+  margin-top: 2rem;
+}
+.textContainer {
+  display: grid;
+  flex: 1;
+  gap: 2.1rem;
+}
+.subtitle {
+  color: var(--btn);
+}
+.title {
+  font-size: 47px;
+}
+.desc {
+  font-size: 17px;
+  font-weight: 300;
+}
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
 .imgContainer {
   position: relative;
-  width: 60%;
-  height: 400px;
+  flex: 1;
+}
+.img {
+  object-fit: contain;
 }
