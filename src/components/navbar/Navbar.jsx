@@ -1,4 +1,4 @@
-import { logo } from "@/assets";
+import { logo } from "../../../public";
 import Links from "./links/Links";
 import styles from "./navbar.module.css";
 import Image from "next/image";
