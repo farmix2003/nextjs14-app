@@ -28,6 +28,9 @@
   flex-direction: column;
   gap: 0.4rem;
 }
+.stat h1 {
+  color: var(--btn);
+}
 .imgContainer {
   position: relative;
   flex: 1;
