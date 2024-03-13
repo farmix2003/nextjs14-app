@@ -30,6 +30,8 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    z-index: 99;
+    position: fixed;
   }
   .menuBtn {
     display: block;
