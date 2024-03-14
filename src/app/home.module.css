@@ -40,3 +40,25 @@
   flex: 1;
   position: relative;
 }
+
+@media (max-width: 890px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .buttons {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 60px;
+  }
+  .brands {
+    width: 100%;
+  }
+}
